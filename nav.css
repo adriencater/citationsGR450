@@ -1,0 +1,22 @@
+nav#panel{
+	border: 1px solid #F1357A;
+	background: #FFF9;
+	max-width: max-content;
+	position: fixed;
+	bottom:1rem;
+	left:1rem;
+	display: flex;
+}
+nav#panel a {
+	color: inherit;
+	color: #f1357A;
+	text-decoration: none;
+	padding: 0.5rem;
+}
+nav#panel a:hover{
+	background: #f1357a;
+	color: #FFF;
+}
+nav#panel a:visited{
+	text-decoration: line-through;
+}
